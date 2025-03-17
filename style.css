@@ -67,6 +67,7 @@
 .lcon {
     display: flex;
     justify-content: left; 
+    cursor: pointer;
   }
   
   .lcon a {
@@ -101,6 +102,7 @@ margin-left: 0px;
 .navbar-nav li{
   font-weight: 500;
   font-family: Arial, Helvetica, sans-serif;
+  
 }
 .brand a{
 
@@ -110,12 +112,17 @@ margin-left: 0px;
 .whole{
   background-color: black;
   margin: 0px;
+  font-style: normal;
 }
 .whole h1{
   color:white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-transform: capitalize;
+
 }
 .whole h2{
 color: darkseagreen;
+font-family: 'Times New Roman', Times, serif;
 }
 .whole h4{
   color: rgb(161, 176, 216);
@@ -185,6 +192,7 @@ color: darkseagreen;
 }
 .details:hover{
   box-shadow: 0 0 40px cadetblue;
+  cursor: pointer;
 }
 .details i{
   font-size: 50px;
@@ -201,4 +209,10 @@ color: darkseagreen;
 .details h4:hover{
   color: rgb(27, 190, 196);
 
+}
+.inner h1{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
 }
