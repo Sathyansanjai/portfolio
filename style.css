@@ -157,12 +157,12 @@ color: darkseagreen;
   box-shadow: 0 0 10px cadetblue;
   flex-direction: column;
   margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .edu:hover{
   box-shadow: 0 0 40px cadetblue;
 }
 .cer{
-  background: inherit;
   box-shadow: 0 0 10px cadetblue;
 }
 .cer:hover{
@@ -174,5 +174,31 @@ color: darkseagreen;
   justify-content: space-around;
 }
 .ss:hover{
-  box-shadow: 0 0 20px rgb(12, 219, 12);
+  box-shadow: 0 0 10px rgb(12, 219, 12);
+}
+.details{
+  background:inherit;
+  box-shadow: 0 0 10px cadetblue;
+  padding-left:50px;
+  padding-top:50px ;
+  padding-bottom: 0px;
+}
+.details:hover{
+  box-shadow: 0 0 40px cadetblue;
+}
+.details i{
+  font-size: 50px;
+  color: #635959; 
+  transition: color 0.3s; 
+  margin-left: 20px;
+}
+.details i:hover{
+  color: #0077b5; 
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 10px rgb(113, 113, 209);
+}
+.details h4:hover{
+  color: rgb(27, 190, 196);
+
 }
