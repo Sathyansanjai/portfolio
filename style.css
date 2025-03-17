@@ -162,13 +162,17 @@ color: darkseagreen;
   box-shadow: 0 0 40px cadetblue;
 }
 .cer{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
   background: inherit;
   box-shadow: 0 0 10px cadetblue;
-  flex-direction: column;
 }
 .cer:hover{
   box-shadow: 0 0 40px cadetblue;
+}
+.navg{
+
+  display: flex;
+  justify-content: space-around;
+}
+.ss:hover{
+  box-shadow: 0 0 20px rgb(12, 219, 12);
 }
